@@ -1,4 +1,7 @@
 import random 
 t=["Many years ago","today","1000 years ago","yesterday"]
-pname=["Jadon","","Novel",""]
+pname=["Jadon","Robert","Novel","Jason","Zack"]
+place=["hotel","countryside","forest"]
+food=["omlettes","chicken","burger","turkey"]
+print(random.choice(t)+" "+random.choice(pname)+" went to "+random.choice(place)+" and he ate "+random.choice(food))
 
